@@ -1,0 +1,10 @@
+<library path="jetson_encoder_compressed_image_transport">
+  <class
+    name="image_transport/jetson_encoder_compressed_pub"
+    type="jetson_encoder_compressed_image_transport::JetsonEncoderCompressedPublisher"
+    base_class_type="image_transport::PublisherPlugin">
+    <description>
+      This plugin publishes a CompressedImage using either JPEG compression by jetson hardware encoder.
+    </description>
+  </class>
+</library>
